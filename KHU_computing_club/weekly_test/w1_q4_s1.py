@@ -24,7 +24,7 @@ if types_of_work == 1:
     total_day_wage = wage_per_hour * time_of_work
     print(f"{time_of_work}시간 동안 일한 주간 급여는 {total_day_wage}원 이다.")
 elif types_of_work == 2:
-    round(total_night_wage,0) = wage_per_hour * time_of_work * 1.5
+    total_night_wage = wage_per_hour * time_of_work * 1.5
     print(f"{time_of_work}시간 동안 일한 야간 급여는 {total_night_wage}원 이다.")
 else:
     print("잘못된 입력입니다.")
